@@ -18,4 +18,4 @@ You'll need to use the [Moment.js](https://momentjs.com/) library to work with d
 
 loacl git:  https://github.com/ReverbDesigns/Day_Planner.git
 hosted planner: https://reverbdesigns.github.io/Day_Planner/
-![index screenshot](./assets/images/planner.png)
+![index screenshot](./assets/images/planner2.png)
