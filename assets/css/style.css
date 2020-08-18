@@ -22,8 +22,6 @@ textarea{
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
-  padding-bottom: 30%;
 }
 
 .row {
@@ -48,7 +46,7 @@ textarea{
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 3px dashed #FED613;
 }
 
 /* .past {
@@ -56,18 +54,18 @@ textarea{
 } */
 
 .present {
-  background-color: #ff6961;
+  background-color: #CA3828;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color:#58BECA;
 }
 
 .save-button {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #27AE5F;
   color: white;
   display: block;
   text-align: center;
@@ -101,20 +99,20 @@ header {
 
 .headline {
   position: relative;
-  height: 400px;
+  height: 900px;
   color: #CA3828;
   text-align: center;
-  background: url('/images/planner.png') no-repeat center center;
+  background: url('https://i.ibb.co/6D1XmCW/planner.png') no-repeat center center;
   background-size: cover;
   &:after {
-    position: absolute;
+    position: relative;
     content: '';
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(#111, 0.5);
-    margin-bottom:35%;
+    margin-bottom:10%;
   }
 
 
@@ -187,10 +185,17 @@ nav {
   }
 
 
+
+
+
+.container {
+  padding border-bottom: 60px !important;
+}
+
 section {
   width: 100%;
-  margin: 25px auto;
-  max-width: 100%800px;
+  margin-bottom: 20%;
+  max-width: 800px;
   font-size: 1.2em;
   line-height: 1.6em;
   box-sizing: border-box;
